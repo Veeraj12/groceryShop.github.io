@@ -1,0 +1,150 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title></title>
+<style >
+h2{
+padding:5px ;
+text-align:center;
+}
+.items:hover{
+    background-color:rgb(196, 85, 66) ; 
+    padding: 20px;
+    transition-duration: 1s;
+    border-radius: 40px;
+    text-shadow: 5px 5px 15px black;
+    height:50px
+}
+.div{
+    width:20%;
+    float:left;
+    margin-left:100px;
+}
+.div2{
+    width:20%;
+    float: right ;
+    margin: auto;
+}
+
+
+
+
+</style>
+</head>
+<body style="background-color:rgb(255, 185, 173)">
+<h1 style="text-align:center">Items</h1> 
+<div class="div">
+<p>
+<h2 class="items" id="Dal" onmouseover="function1()" onmouseout="function1o()">
+    Dal
+</h2>
+</p>
+<p>
+<img  alt="maggi" 
+width="120px" id="img" height="120px">
+<h2 class="items" id="maggi" onmouseover="function2()" onmouseout="function2o()">Maggi</h2>
+</p>
+<p>
+<h2 class="items" id="salt" onmouseover="function3()" onmouseout="function3o()">Salt</h2>
+</p>
+<p>
+ <h2 class="items" id="sugar" onmouseover="function4()" onmouseout="function4o()">Sugar</h2>
+</p>
+<p>
+<h2 class="items" id="poha" onmouseover="function5()" onmouseout="function5o()">Poha</h2>
+</p>
+
+</div>
+
+<div class="div2">
+<P>
+<h2 class="items" id="namkeen" onmouseover="function6()" onmouseout="function6o()">Namkeen</h2>
+</P>
+<P>
+ <h2 class="items" id="bread" onmouseover="function7()" onmouseout="function7o()">Bread</h2>
+</P>
+<P>
+<h2 class="items" id="milk" onmouseover="function8()" onmouseout="function8o()">Milk</h2>
+</P>
+<P>
+ <h2 class="items" id="grocery" onmouseover="function9()" onmouseout="function9o()">Grocery</h2>
+</P>
+<P>
+<h2 class="items" id="oil" onmouseover="function10()" onmouseout="function10o()">oil</h2>
+</P>
+</div>
+</body>
+<script>
+    a = "Offers On This Items are (1)(2)(3) "
+    ao = "Dal"
+    b = "Offers On This Items are (1)(2)(3) "
+    bo = "Maggi"
+    d = "Offers On This Items are (1)(2)(3) "
+    dO = "Sugar"
+    f = "Offers On This Items are (1)(2)(3) "
+    fo = "Namkeen"
+    g = "Offers On This Items are (1)(2)(3) "
+    go = "Bread"
+    h = "Offers On This Items are (1)(2)(3) "
+    ho = "Milk"
+    i = "Offers On This Items are (1)(2)(3) "
+    io = "Grocery"
+    k = "Offers On This Items are (1)(2)(3)"
+    ko = "Oil"
+
+    function function1(){
+    document.getElementById("Dal").innerHTML = a ;
+    }
+    function function1o(){
+    document.getElementById("Dal").innerHTML = ao ;
+    }
+    function function2(){
+    document.getElementById("maggi").innerHTML = b ;
+     document.getElementById("img").src="maggie.png";
+}
+    function function2o(){
+    document.getElementById("maggi").innerHTML = bo ;
+    }
+    function function3(){
+    document.getElementById("salt").innerHTML = "Offers On This Items are (1)(2)(3) ";
+    }
+    function function3o(){
+    document.getElementById("salt").innerHTML = "Salt";
+    }
+    function function4(){
+    document.getElementById("sugar").innerHTML = d ;
+    }
+    function function4o(){
+    document.getElementById("sugar").innerHTML = dO ;
+    }
+    function function5(){
+    document.getElementById("poha").innerHTML = "Offers On This Items are (1)(2)(3) " ;
+    }
+    function function5o(){
+    document.getElementById("poha").innerHTML ="Poha" ;
+    }
+    function function6(){
+        document.getElementById("namkeen").innerHTML="Offers On This Items are (1)(2)(3) ";
+    }
+    function function6o(){
+        document.getElementById("namkeen").innerHTML = fo;
+    }
+    function function7(){
+        document.getElementById("bread").innerHTML = g;
+    }function function7o(){
+        document.getElementById("bread").innerHTML = go;
+    }function function8(){
+        document.getElementById("milk").innerHTML = h;
+    }function function8o(){
+        document.getElementById("milk").innerHTML = ho;
+    }function function9(){
+        document.getElementById("grocery").innerHTML = i;
+    }function function9o(){
+        document.getElementById("grocery").innerHTML = io;
+    }function function10(){
+        document.getElementById("oil").innerHTML = k;
+    }function function10o(){
+        document.getElementById("oil").innerHTML = ko;
+    }
+</script>
+</html>
